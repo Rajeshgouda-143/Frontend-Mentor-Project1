@@ -1,0 +1,84 @@
+
+
+.container{
+    width: 90%;
+    max-width: 380px;
+    padding: 30px;
+    background: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.logo img{
+    width: 100%;
+    /* height: 80px; */
+    border-radius: 50%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    gap: 10px;
+}
+
+.title p{
+    color: hsl(75, 94%, 57%);
+    font-weight: 400;
+}
+
+.skill p{
+    text-align: center;
+    color: hsl(0, 1%, 74%);
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.available{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    /* max-width: 350px; */
+}
+
+.available button{
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    background: hsl(0, 0%, 12%);
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    color:hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.available button:hover{
+    background: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+
+
+
+
+
+
